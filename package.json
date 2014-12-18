@@ -1,0 +1,20 @@
+{
+  "name": "homie",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bridges": "node ./bin/bridges",
+    "state": "node ./bin/state",
+    "register": "node ./bin/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^0.7.3",
+    "express": "^4.10.6",
+    "nconf": "^0.7.1",
+    "node-hue-api": "^0.2.3",
+    "q": "^1.1.2"
+  }
+}
